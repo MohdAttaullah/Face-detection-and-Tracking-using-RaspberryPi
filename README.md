@@ -20,6 +20,7 @@ To install the servo blaster driver open a terminal and CD into the directory wh
 run the command: sudo make install_autostart
 or just: sudo make install
 (you can check the command by opening Makefile in the kernel)
+![untitled](https://user-images.githubusercontent.com/25952213/28655360-0a27de12-72b9-11e7-9cb1-98b2bf754243.png)
 
 start servoblaster with the following command: sudo modprobe servoblaster
 
