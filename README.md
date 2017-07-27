@@ -34,6 +34,8 @@ I was able to power it without a usb hub, but you may want to get a powered usb 
 Servoblaster considers servo-0 to be whatever is connected to GPIO 4 and servo-1 is whatever is connected to GPIO-17.
 Servos have three wires, one is red which is Vin/positive, one is brown or black which is ground/negative and the other is control.
 using the ribbon cable (and in my case some connector wire jammed into the holes) connect the control wire for each servo to the correct pin. The code assumes that servo-0 will control the left-right movement and servo-1 will control the up-down movement of the camera; so connect them this way.
+![pi3_gpio](https://user-images.githubusercontent.com/25952213/28655435-96f6e432-72b9-11e7-9aa0-c9f116dc70fb.png)
+
 
 Run the Program
 
